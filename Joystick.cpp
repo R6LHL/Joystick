@@ -1,8 +1,8 @@
 #include "Joystick.h"
 
 
-void Joystick::Joystick(pin_number x_pin, pin_number y_pin, pin_number button_pin,
-					unsigned int dzx,unsigned int dzy)
+Joystick::Joystick(pin_number x_pin, pin_number y_pin, pin_number button_pin,
+					unsigned int dzx, unsigned int dzy)
 		{
 			X_axis_pin = x_pin;
 			Y_axis_pin = y_pin;

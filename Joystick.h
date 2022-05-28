@@ -4,6 +4,7 @@
 #include <Arduino.h>
 
 typedef const unsigned char pin_number;
+typedef unsigned char pin_num;
 
 class Joystick
 {
@@ -19,9 +20,9 @@ class Joystick
 		
 	private:
 		
-		pin_number X_axis_pin;
-		pin_number Y_axis_pin;
-		pin_number Button_pin;
+		pin_num X_axis_pin;
+		pin_num Y_axis_pin;
+		pin_num Button_pin;
 		int centerX;
 		int centerY;
 		char dead_zone_x;
